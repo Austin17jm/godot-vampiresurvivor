@@ -1,0 +1,13 @@
+SHORT TERM GOALS
+================
+
+Stretch Goals
+-------------
+[ ] Gun follows mouse
+[ ] Zoom way out
+[ ] Rooms + proper map design
+[ ] Two new weapons
+[ ] Two new enemies
+[ ] Enemies only follow when you're in the same room
+[ ] Boss battle
+[ ] Polish (screen shake, sound effects, music)
