@@ -6,12 +6,14 @@ func spawn_mob():
 	new_mob.global_position = %PathFollow2D.global_position
 	add_child(new_mob)
 
-
 func _on_timer_timeout() -> void:
 	spawn_mob()
-
 
 func _on_player_health_depleted() -> void:
 	%GameOver.visible = true
 	get_tree().paused = true
 	
+func _input(event: InputEvent) -> void:
+	if event.is_action_pressed("pause_or_resume"):
+		%Pause.visible = true
+		get_tree().paused = true  # Actually freezes the game

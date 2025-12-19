@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcw6n5gu025ay"]
+
+[ext_resource type="Texture2D" uid="uid://0rai0as10tbj" path="res://crosshairs (2).png" id="1_rtxwy"]
+
+[node name="Crosshair" type="Sprite2D"]
+
+[node name="Crosshairs(2)" type="Sprite2D" parent="."]
+texture = ExtResource("1_rtxwy")
